@@ -8,19 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:Name="windowWidthTextBox" HorizontalAlignment="Left" Margin="1041,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
-        <TextBox x:Name="windowHeightTextBox" HorizontalAlignment="Left" Margin="1041,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
-        <TextBox x:Name="frameWidthTextBox" HorizontalAlignment="Left" Margin="1041,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
-        <TextBox x:Name="windowAreaTextBox" HorizontalAlignment="Left" Margin="1041,403,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
-        <TextBox x:Name="glassAreatextBox" HorizontalAlignment="Left" Margin="1041,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
-        <TextBox x:Name="frameCircleTextBox" HorizontalAlignment="Left" Margin="1041,523,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
-        <TextBlock x:Name="glassWidthTextBlock" HorizontalAlignment="Left" Margin="839,178,0,0" TextWrapping="Wrap" Text="Glass width: (W)" VerticalAlignment="Top" Height="32" Width="123"/>
-        <TextBlock x:Name="glassHeightTextBlock" HorizontalAlignment="Left" Margin="839,233,0,0" TextWrapping="Wrap" Text="Glass Height: (H)" VerticalAlignment="Top" Height="32" Width="123"/>
-        <TextBlock x:Name="frameWidthTextBlock" HorizontalAlignment="Left" Margin="839,288,0,0" TextWrapping="Wrap" Text="Frame width:(W)" VerticalAlignment="Top" Height="32" Width="123"/>
-        <TextBlock x:Name="windowAreaTextBlock" HorizontalAlignment="Left" Margin="839,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="123" Text="Window Area:"/>
-        <TextBlock x:Name="glassAreaTextBlock" HorizontalAlignment="Left" Margin="839,462,0,0" TextWrapping="Wrap" Text="Glass Area:" VerticalAlignment="Top" Height="32" Width="123"/>
-        <TextBlock x:Name="frameCircleTextBlock" HorizontalAlignment="Left" Margin="839,523,0,0" TextWrapping="Wrap" Text="Frame Circle:" VerticalAlignment="Top" Height="32" Width="123"/>
-        
-        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="1095,348,0,0" VerticalAlignment="Top" Click="calculateButton_Click"/>
+        <TextBox x:Name="windowWidthTextBox" HorizontalAlignment="Left" Margin="750,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170" PlaceholderText=""/>
+        <TextBox x:Name="windowHeightTextBox" HorizontalAlignment="Left" Margin="750,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170" PlaceholderText=""/>
+        <TextBox x:Name="frameWidthTextBox" HorizontalAlignment="Left" Margin="750,256,0,0" TextWrapping="Wrap" Text="45" VerticalAlignment="Top" Width="170" PlaceholderText=""/>
+        <TextBox x:Name="windowAreaTextBox" HorizontalAlignment="Left" Margin="750,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
+        <TextBox x:Name="glassAreatextBox" HorizontalAlignment="Left" Margin="750,430,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
+        <TextBox x:Name="frameCircleTextBox" HorizontalAlignment="Left" Margin="750,491,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
+        <TextBlock x:Name="glassWidthTextBlock" HorizontalAlignment="Left" Margin="548,146,0,0" TextWrapping="Wrap" Text="Glass width: (W)" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="glassHeightTextBlock" HorizontalAlignment="Left" Margin="548,201,0,0" TextWrapping="Wrap" Text="Glass Height: (H)" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="frameWidthTextBlock" HorizontalAlignment="Left" Margin="548,256,0,0" TextWrapping="Wrap" Text="Frame width:(W)" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="windowAreaTextBlock" HorizontalAlignment="Left" Margin="548,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="123" Text="Window Area:"/>
+        <TextBlock x:Name="glassAreaTextBlock" HorizontalAlignment="Left" Margin="548,430,0,0" TextWrapping="Wrap" Text="Glass Area:" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="frameCircleTextBlock" HorizontalAlignment="Left" Margin="548,491,0,0" TextWrapping="Wrap" Text="Frame Circle:" VerticalAlignment="Top" Height="32" Width="123"/>
+
+
+        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="804,316,0,0" VerticalAlignment="Top" Click="calculateButton_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="367" Margin="62,170,0,0" VerticalAlignment="Top" Width="443" Source="Assets/funny-cat-window-installation-pics.jpg"/>
     </Grid>
 </Page>

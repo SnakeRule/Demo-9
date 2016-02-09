@@ -34,8 +34,9 @@ namespace Excercise_3
             double wWidth = 0;
             double wHeight = 0;
             double wArea = 0;
-            double fWidth = 0;
+            double fWidth = 45;
             double gArea = 0;
+            double fCircle = 0;
 
             if (check = (double.TryParse(windowWidthTextBox.Text, out value)))
                 wWidth = double.Parse(windowWidthTextBox.Text);
@@ -44,14 +45,15 @@ namespace Excercise_3
                 wHeight = double.Parse(windowHeightTextBox.Text);
 
             if (check = (double.TryParse(frameWidthTextBox.Text, out value)))
-                wHeight = double.Parse(frameWidthTextBox.Text);
+                fWidth = double.Parse(frameWidthTextBox.Text);
 
-            fWidth = double.Parse(frameWidthTextBox.Text);
-            wArea = wWidth * wHeight;
-            gArea = (wWidth * wHeight) - (fWidth * fWidth);
+            wArea = (wWidth * wHeight) / 10;
+            gArea = (wWidth - (fWidth*2)) * (wHeight - (fWidth*2)) / 10;
+            fCircle = ((2 * wHeight) + (2 * wWidth)) / 10;
 
             windowAreaTextBox.Text = wArea.ToString() + " CM^2";
             glassAreatextBox.Text = gArea.ToString() + " CM^2";
+            frameCircleTextBox.Text = fCircle.ToString() + " CM";
         }
     }
 }
