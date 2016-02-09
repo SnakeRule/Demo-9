@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Excercise_3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Excercise_3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="windowWidthTextBox" HorizontalAlignment="Left" Margin="1041,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="windowHeightTextBox" HorizontalAlignment="Left" Margin="1041,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="frameWidthTextBox" HorizontalAlignment="Left" Margin="1041,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="windowAreaTextBox" HorizontalAlignment="Left" Margin="1041,403,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
+        <TextBox x:Name="glassAreatextBox" HorizontalAlignment="Left" Margin="1041,462,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
+        <TextBox x:Name="frameCircleTextBox" HorizontalAlignment="Left" Margin="1041,523,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" IsReadOnly="True" Width="170"/>
+        <TextBlock x:Name="glassWidthTextBlock" HorizontalAlignment="Left" Margin="839,178,0,0" TextWrapping="Wrap" Text="Glass width: (W)" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="glassHeightTextBlock" HorizontalAlignment="Left" Margin="839,233,0,0" TextWrapping="Wrap" Text="Glass Height: (H)" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="frameWidthTextBlock" HorizontalAlignment="Left" Margin="839,288,0,0" TextWrapping="Wrap" Text="Frame width:(W)" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="windowAreaTextBlock" HorizontalAlignment="Left" Margin="839,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="123" Text="Window Area:"/>
+        <TextBlock x:Name="glassAreaTextBlock" HorizontalAlignment="Left" Margin="839,462,0,0" TextWrapping="Wrap" Text="Glass Area:" VerticalAlignment="Top" Height="32" Width="123"/>
+        <TextBlock x:Name="frameCircleTextBlock" HorizontalAlignment="Left" Margin="839,523,0,0" TextWrapping="Wrap" Text="Frame Circle:" VerticalAlignment="Top" Height="32" Width="123"/>
+        
+        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="1095,348,0,0" VerticalAlignment="Top" Click="calculateButton_Click"/>
+    </Grid>
+</Page>
