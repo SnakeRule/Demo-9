@@ -14,34 +14,34 @@
                 <GradientStop Color="#FFFF7979" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="sevenButton" Content="7" HorizontalAlignment="Left" Margin="668,273,0,0" VerticalAlignment="Top" Width="60" Height="42"/>
-        <Button x:Name="eightButton" Content="8" HorizontalAlignment="Left" Margin="743,273,0,0" VerticalAlignment="Top" Width="53" Height="42"/>
-        <Button x:Name="nineButton" Content="9" HorizontalAlignment="Left" Margin="811,273,0,0" VerticalAlignment="Top" Width="57" Height="42"/>
-        <Button x:Name="fourButton" Content="4" HorizontalAlignment="Left" Margin="668,331,0,0" VerticalAlignment="Top" Width="60" Height="42"/>
-        <Button x:Name="fiveButton" Content="5" HorizontalAlignment="Left" Margin="743,331,0,0" VerticalAlignment="Top" Width="53" Height="42"/>
-        <Button x:Name="sixButton" Content="6" HorizontalAlignment="Left" Margin="811,331,0,0" VerticalAlignment="Top" Width="57" Height="42"/>
-        <Button x:Name="oneButton" Content="1" HorizontalAlignment="Left" Margin="668,387,0,0" VerticalAlignment="Top" Width="60" Height="41"/>
-        <Button x:Name="twoButton" Content="2" HorizontalAlignment="Left" Margin="743,387,0,0" VerticalAlignment="Top" Width="53" Height="41"/>
-        <Button x:Name="threeButton" Content="3" HorizontalAlignment="Left" Margin="811,387,0,0" VerticalAlignment="Top" Width="57" Height="41" Click="threeButton_Click"/>
-        <Button x:Name="zeroButton" Content="0" HorizontalAlignment="Left" Margin="668,444,0,0" VerticalAlignment="Top" Width="128" Height="42"/>
-        <Button x:Name="dotButton" Content="." HorizontalAlignment="Left" Margin="811,444,0,0" VerticalAlignment="Top" Width="57" Height="42"/>
-        <Button x:Name="removeButton" Content="&lt;-" HorizontalAlignment="Left" Margin="877,273,0,0" VerticalAlignment="Top" Width="65" Height="42"/>
-        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="877,331,0,0" VerticalAlignment="Top" Height="155" Width="65"/>
+        <Button x:Name="sevenButton" Content="7" HorizontalAlignment="Left" Margin="668,273,0,0" VerticalAlignment="Top" Width="60" Height="42" Click="Button_Click"/>
+        <Button x:Name="eightButton" Content="8" HorizontalAlignment="Left" Margin="743,273,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="Button_Click"/>
+        <Button x:Name="nineButton" Content="9" HorizontalAlignment="Left" Margin="811,273,0,0" VerticalAlignment="Top" Width="57" Height="42" Click="Button_Click"/>
+        <Button x:Name="fourButton" Content="4" HorizontalAlignment="Left" Margin="668,331,0,0" VerticalAlignment="Top" Width="60" Height="42" Click="Button_Click"/>
+        <Button x:Name="fiveButton" Content="5" HorizontalAlignment="Left" Margin="743,331,0,0" VerticalAlignment="Top" Width="53" Height="42" Click="Button_Click"/>
+        <Button x:Name="sixButton" Content="6" HorizontalAlignment="Left" Margin="811,331,0,0" VerticalAlignment="Top" Width="57" Height="42" Click="Button_Click"/>
+        <Button x:Name="oneButton" Content="1" HorizontalAlignment="Left" Margin="668,387,0,0" VerticalAlignment="Top" Width="60" Height="41" Click="Button_Click"/>
+        <Button x:Name="twoButton" Content="2" HorizontalAlignment="Left" Margin="743,387,0,0" VerticalAlignment="Top" Width="53" Height="41" Click="Button_Click"/>
+        <Button x:Name="threeButton" Content="3" HorizontalAlignment="Left" Margin="811,387,0,0" VerticalAlignment="Top" Width="57" Height="41" Click="Button_Click"/>
+        <Button x:Name="zeroButton" Content="0" HorizontalAlignment="Left" Margin="668,444,0,0" VerticalAlignment="Top" Width="128" Height="42" Click="Button_Click"/>
+        <Button x:Name="dotButton" Content="." HorizontalAlignment="Left" Margin="811,444,0,0" VerticalAlignment="Top" Width="57" Height="42" Click="Button_Click"/>
+        <Button x:Name="removeButton" Content="&lt;-" HorizontalAlignment="Left" Margin="877,273,0,0" VerticalAlignment="Top" Width="65" Height="42" Click="Button_Click"/>
+        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Left" Margin="877,331,0,0" VerticalAlignment="Top" Height="155" Width="65" Click="okButton_Click"/>
         <RadioButton x:Name="temperatureRadioButton" Content="Temperature" HorizontalAlignment="Left" Margin="668,503,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <RadioButton x:Name="humidityRadioButton" Content="Humidity" HorizontalAlignment="Left" Margin="822,503,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="heaterTextBlock" HorizontalAlignment="Left" Margin="326,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="314" FontSize="64" FontFamily="UniDreamLED">
         	<Run Foreground="#FFDA0D0D" FontSize="96" Text="HEATER"/>
         </TextBlock>
-        <TextBlock x:Name="logoTextBlock" HorizontalAlignment="Left" Margin="366,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="225" Text="Ultimatum©" FontSize="32" FontFamily="Trajan Pro"/>
+        <TextBlock x:Name="logoTextBlock" HorizontalAlignment="Left" Margin="371,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="225" Text="Ultimatum©" FontSize="32" FontFamily="Trajan Pro"/>
         <TextBlock x:Name="tempLogoTextBlock" HorizontalAlignment="Left" Margin="326,423,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="207" FontSize="24" FontFamily="Castellar">
         	<Run Text="Temperature"/>
         	<Run Text=":"/>
         </TextBlock>
-        <TextBlock x:Name="temperatureTextBlock" HorizontalAlignment="Left" Margin="538,423,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="41" FontSize="24" FontFamily="Algerian" Width="58"/>
+        <TextBlock x:Name="temperatureTextBlock" HorizontalAlignment="Left" Margin="538,423,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="41" FontSize="24" FontFamily="Algerian" Width="102"/>
         <TextBlock x:Name="humidityLogoTextBlock" HorizontalAlignment="Left" Margin="326,469,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="41" Width="207" FontSize="24" FontFamily="Castellar" Text="Humidity:"/>
-        <TextBlock x:Name="humidityTextBlock" HorizontalAlignment="Left" Margin="538,470,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="41" FontSize="24" FontFamily="Algerian" Width="58"/>
-        <TextBox x:Name="valueTextBox" HorizontalAlignment="Left" Margin="668,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="274" PlaceholderText="0" FlowDirection="RightToLeft"/>
-        <TextBlock x:Name="infoTextBlock" HorizontalAlignment="Left" Margin="668,540,0,0" TextWrapping="Wrap" Text="Info: Set values and click OK!" VerticalAlignment="Top" Height="39" Width="274" FontSize="18.667"/>
+        <TextBlock x:Name="humidityTextBlock" HorizontalAlignment="Left" Margin="538,470,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="41" FontSize="24" FontFamily="Algerian" Width="102"/>
+        <TextBox x:Name="valueTextBox" HorizontalAlignment="Left" Margin="668,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="274" PlaceholderText="0" FlowDirection="RightToLeft" TextReadingOrder="UseFlowDirection"/>
+        <TextBlock x:Name="infoTextBlock" HorizontalAlignment="Left" Margin="668,540,-155157774455733,0" TextWrapping="Wrap" Text="Info: Set values and click OK!" VerticalAlignment="Top" Width="300" Height="70" FontSize="18.667"/>
 
 
 
